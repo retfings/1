@@ -1,0 +1,27 @@
+peewee
+pymysql
+googlesearch-python
+wikipedia-api
+fake_useragent
+requests
+redis
+beautifulsoup4
+goose3
+# jpaser install fail
+gne
+trafilatura
+# 0.4.23 crawl4ai bug
+crawl4ai
+scihub-cn
+bibtexparser
+
+beautifulsoup4
+requests
+retrying
+PyYaml
+bibtexparser
+aiohttp
+lxml
+pytest
+dataclasses
+elasticsearch

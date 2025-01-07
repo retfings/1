@@ -1,0 +1,7 @@
+data
+papers
+__pycache__
+web
+.vscode
+*.pdf
+sci-hub-doi-2022-02-12.txt
