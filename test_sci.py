@@ -5,7 +5,7 @@ result = sh.download({"doi": '10.1109/ACC.1999.786344'})
 
 
 
-data = open("sci-hub-doi-2022-02-12.txt",encoding='utf-8',errors='ignore').readlines()
+# data = open("sci-hub-doi-2022-02-12.txt",encoding='utf-8',errors='ignore').readlines()
 
 
 # 88343822
