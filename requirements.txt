@@ -26,3 +26,4 @@ pytest
 dataclasses
 elasticsearch
 pika
+pandas

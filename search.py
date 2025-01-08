@@ -191,43 +191,47 @@ if __name__ == "__main__":
     for _ in range(50000):
         # if key not in ['SIC','DRAM','SRAM','HBM','etc']:
         #     continue
-        key = f"'{random.choice(dataset)}' + '{random.choice(dataset)}'"
         
-        for start in range(0, crawl_count, 10):
-            print(f"page:{start}")
-        # test_search_by_google()
-            searchkey = f'{key}'  
-            # searchkey = f'半导体工艺本体 {key}'  if lang == 'cn' else f'Semiconductor Process Ontology {key}' 
-            print(searchkey)
-            try:
-                req = _req(searchkey,0,lang,start,None,3,'active',None,None)
-                assert req.status_code == 200
-            except Exception as e:
-                print(e)
-                continue
-            soup = BeautifulSoup(req.text, "html.parser")
-            result_block = soup.find_all("div", attrs={"class": "g"})
-            hrefs = []
-            for result in result_block:
-                # Find link, title, description
-                link = result.find("a", href=True)
-                if link:
-                    hrefs.append(link["href"])
-            if len(hrefs) == 0:
-                crawl_key_count[key] = start
-                break
-            
-            
-            
-            from datetime import datetime
-            # 获取当前日期
-            current_date = datetime.now()
-            # 格式化日期为 "vYYYYMMDD" 格式
-            version_string = current_date.strftime("v%Y%m%d")
-            
-            save_json(f'key_count_stat_{lang}_{version_string}.json',crawl_key_count)
-                     
-            time.sleep(5)
-            with open(f"url_{lang}_{version_string}.txt", 'a+',encoding='utf-8') as file:
-                file.writelines(f'{url},{key}\n' for url in hrefs)
-            print(f"len wirite {hrefs}")
+        import itertools
+        permutations = list(itertools.combinations(dataset, 2))
+        for k in permutations:
+   
+            key = f"'{k[0]}' + '{k[1]}'"
+            for start in range(0, crawl_count, 10):
+                print(f"page:{start}")
+            # test_search_by_google()
+                searchkey = f'{key}'  
+                # searchkey = f'半导体工艺本体 {key}'  if lang == 'cn' else f'Semiconductor Process Ontology {key}' 
+                print(searchkey)
+                try:
+                    req = _req(searchkey,0,lang,start,None,3,'active',None,None)
+                    assert req.status_code == 200
+                except Exception as e:
+                    print(e)
+                    continue
+                soup = BeautifulSoup(req.text, "html.parser")
+                result_block = soup.find_all("div", attrs={"class": "g"})
+                hrefs = []
+                for result in result_block:
+                    # Find link, title, description
+                    link = result.find("a", href=True)
+                    if link:
+                        hrefs.append(link["href"])
+                if len(hrefs) == 0:
+                    crawl_key_count[key] = start
+                    break
+                
+                
+                
+                from datetime import datetime
+                # 获取当前日期
+                current_date = datetime.now()
+                # 格式化日期为 "vYYYYMMDD" 格式
+                version_string = current_date.strftime("v%Y%m%d")
+                
+                save_json(f'key_count_stat_{lang}_{version_string}.json',crawl_key_count)
+                        
+                time.sleep(5)
+                with open(f"url_{lang}_{version_string}.txt", 'a+',encoding='utf-8') as file:
+                    file.writelines(f'{url},{key}\n' for url in hrefs)
+                print(f"len wirite {hrefs}")
