@@ -25,3 +25,4 @@ lxml
 pytest
 dataclasses
 elasticsearch
+pika
