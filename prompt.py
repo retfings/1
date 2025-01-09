@@ -98,6 +98,8 @@ if not os.path.exists('new_data.xlsx'):
     df = pd.read_excel('data.xlsx')
     df.ffill(inplace=True)
     df.to_excel("new_data.xlsx",index=False)
+    df.to_csv("data.csv")
+    exit(0)
 else:
     df = pd.read_excel('new_data.xlsx')
     

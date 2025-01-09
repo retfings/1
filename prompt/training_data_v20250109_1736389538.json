@@ -1,0 +1,86 @@
+[
+  {
+    "text": "查看某一MET参数均值的趋势",
+    "data_type": "Met",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看过去两个月，某款产品的DEFECT MAP",
+    "data_type": "Defect",
+    "loader_level": "Summary",
+    "table_name": "dwd_insp_wafer_summary_v",
+    "source": "original"
+  },
+  {
+    "text": "查看过去一周，某个Layer的DEFECT趋势",
+    "data_type": "Defect",
+    "loader_level": "Summary",
+    "table_name": "dwd_insp_wafer_summary_v",
+    "source": "original"
+  },
+  {
+    "text": "查看过去一个月，某款产品，bin1的数据",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_hardbin_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看最近两周A站点的wafer履历",
+    "data_type": "History",
+    "loader_level": "Raw",
+    "table_name": "dwd_wip_weh_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一机台最近一天某一indicator参数的趋势",
+    "data_type": "FDC",
+    "loader_level": "Summary",
+    "table_name": "dwd_fdc_indicator_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一WAT参数过去一周均值的趋势",
+    "data_type": "WAT",
+    "loader_level": "Summary",
+    "table_name": "dws_wat_param_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一Offline参数均值的趋势",
+    "data_type": "Offline",
+    "loader_level": "Summary",
+    "table_name": "dws_met_offline_param_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot对应的fablot和fabwafer",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_fab_wafer_info_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer触发了哪些ink 规则",
+    "data_type": "INK",
+    "loader_level": "Summary",
+    "table_name": "dws_autoink_rule_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某wafer的Downgrade信息",
+    "data_type": "Downgrade",
+    "loader_level": "Summary",
+    "table_name": "dwd_ws_grade_check_result",
+    "source": "original"
+  },
+  {
+    "text": "查看某时间段/module/eqp 某lot的水化气上料信息",
+    "data_type": "Others",
+    "loader_level": "Raw",
+    "table_name": "dwd_fac_material",
+    "source": "original"
+  }
+]

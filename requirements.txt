@@ -27,3 +27,5 @@ dataclasses
 elasticsearch
 pika
 pandas
+pyautogui
+pynput
