@@ -1,4 +1,7 @@
-import Quartz 
+import Quartz
+
+# 用于存储鼠标点击位置的列表
+click_positions = []
 
 def get_mouse_position():
     # 获取当前鼠标位置
@@ -11,7 +14,13 @@ def monitor_mouse_clicks():
     def callback(proxy, event_type, event, refcon):
         if event_type == Quartz.kCGEventLeftMouseDown:
             x, y = get_mouse_position()
+            # 将点击位置添加到列表中
+            click_positions.append((x, y))
+            # 如果列表长度超过 20，移除最旧的事件
+            if len(click_positions) > 20:
+                click_positions.pop(0)
             print(f"Mouse clicked at: ({x}, {y})")
+            print(f"Recent clicks (max 20): {click_positions}")
         return event
 
     # 创建一个事件点击监听器
