@@ -1,0 +1,464 @@
+[
+  {
+    "text": "查看某一MET参数均值的趋势",
+    "data_type": "Met",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个MET parameter过去2个月的Xbar-R/S Trend及Rawdata chart；",
+    "data_type": "Met",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个量测参数，某一wafer的sitemap叠图和gallery",
+    "data_type": "Met",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看过去两个月，某款产品的DEFECT MAP",
+    "data_type": "Defect",
+    "loader_level": "Summary",
+    "table_name": "dwd_insp_wafer_summary_v",
+    "source": "original"
+  },
+  {
+    "text": "查看过去一周，某个Layer的DEFECT趋势",
+    "data_type": "Defect",
+    "loader_level": "Summary",
+    "table_name": "dwd_insp_wafer_summary_v",
+    "source": "original"
+  },
+  {
+    "text": "查看过去两个月，某款产品的code是A的趋势",
+    "data_type": "Defect",
+    "loader_level": "Summary",
+    "table_name": "dws_defect_class_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看过去一周，某个Layer的rough bin是B的趋势",
+    "data_type": "Defect",
+    "loader_level": "Summary",
+    "table_name": "dws_defect_class_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看过去两个月，某款产品的chart是B的趋势",
+    "data_type": "Defect",
+    "loader_level": "Raw",
+    "table_name": "dwd_defect_chart_wafer",
+    "source": "original"
+  },
+  {
+    "text": "查看过去一周，某个Layer的chart是B的趋势",
+    "data_type": "Defect",
+    "loader_level": "Raw",
+    "table_name": "dwd_defect_chart_wafer",
+    "source": "original"
+  },
+  {
+    "text": "查看过去两个月，某款产品的DEFECT MAP",
+    "data_type": "Defect",
+    "loader_level": "Raw",
+    "table_name": "dwd_insp_defect_v",
+    "source": "original"
+  },
+  {
+    "text": "查看过去一周，某个Layer，某个wafer的MAP",
+    "data_type": "Defect",
+    "loader_level": "Raw",
+    "table_name": "dwd_insp_defect_v",
+    "source": "original"
+  },
+  {
+    "text": "查看过去一个月，某款产品，bin1的数据",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_hardbin_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看过去一个月，某款产品，bin1的数据宽表",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_hardbin_wd",
+    "source": "original"
+  },
+  {
+    "text": "查看某款产品，过去一周某一参数的明细",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_param_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一测试项的bb trend",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_bb_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一测试项的测试时间趋势",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_ett_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一产品，过去一月某一funcbin的趋势",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_funcbin_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一测试项，过去一周，某一参数的fail wl趋势",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_fwl_wf",
+    "source": "original"
+  },
+  {
+    "text": "暂时用不到",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_fwl_die",
+    "source": "original"
+  },
+  {
+    "text": "暂时用不到",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_rdmargin_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一测试项，过去一周，某一参数的fail pcoll趋势",
+    "data_type": "WS",
+    "loader_level": "Summary",
+    "table_name": "dws_ws_pcollevel_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一测试项，过去一周，某一参数的fail pcoll趋势",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_hardbin_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一测试项，过去一周，某一参数的fail pcoll趋势",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_param_die_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer 某一测试项的bb map",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_bb_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer 某一测试项的bb map",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_bb_mark_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer 某一测试项的bb map",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_pf_ett_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer 某一测试项的bb map",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_funcbin_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer的vt分布",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_vtdist_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer的vt分布",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_vt_ivs_stat_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer的vt分布",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_fwl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer的vt分布",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_rdmargin_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer的vt分布",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_pcollevel_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer的vt分布",
+    "data_type": "WS",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_leakage_x8_v",
+    "source": "original"
+  },
+  {
+    "text": "查看最近两周A站点的wafer履历",
+    "data_type": "History",
+    "loader_level": "Raw",
+    "table_name": "dwd_wip_weh_v",
+    "source": "original"
+  },
+  {
+    "text": "查看最近两周A站点的lot履历",
+    "data_type": "History",
+    "loader_level": "Raw",
+    "table_name": "dwd_wip_leh_v",
+    "source": "original"
+  },
+  {
+    "text": "查询某一wafer触发了哪些异常标签",
+    "data_type": "History",
+    "loader_level": "Raw",
+    "table_name": "dwd_abnormal_label",
+    "source": "original"
+  },
+  {
+    "text": "查看某一机台最近一天某一indicator参数的趋势",
+    "data_type": "FDC",
+    "loader_level": "Summary",
+    "table_name": "dwd_fdc_indicator_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一WAT参数过去一周均值的趋势",
+    "data_type": "WAT",
+    "loader_level": "Summary",
+    "table_name": "dws_wat_param_wf",
+    "source": "original"
+  },
+  {
+    "text": "show 某一个WAT parameter多片wafer的sitemap叠图和gallery",
+    "data_type": "WAT",
+    "loader_level": "Raw",
+    "table_name": "dwd_wat_param_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一Offline参数均值的趋势",
+    "data_type": "Offline",
+    "loader_level": "Summary",
+    "table_name": "dws_met_offline_param_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个Offline parameter过去2个月的Xbar-R/S Trend及Rawdata chart；",
+    "data_type": "Offline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_offline_param_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个Offline 量测参数，某一wafer的sitemap叠图和gallery",
+    "data_type": "Offline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_offline_param_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot对应的fablot和fabwafer",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_fab_wafer_info_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一产品，某一站点的最近一个月的lot良率趋势",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_lotinfo_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一产品，某一站点的最近一个月的lot良率趋势",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_summary_yield_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一产品，某一站点的最近一个月的lot final良率趋势",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_summary_yield_mer_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot，hardbin分布",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_summary_hardbin_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot，final的hardbin分布",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_summary_hardbin_mer_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot，softbin分布",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_summary_softbin_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot，final的softbin分布",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_summary_softbin_mer_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot，对应fab lot的hardbin分布",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_bin_dielevel_summary_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot的hardbin Summary",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_bin_dutlevel_summary_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一产品，某一参数最近一周的平均值趋势",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_tt_sitelevel_summary_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一产品，某一参数最近一周的ft lot平均值趋势",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_parameters_dielevel_summary_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一产品，某一参数最近一周的fab wafer平均值趋势",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_parameters_dielevel_wafer_summary_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一产品，某一参数最近一周的ft lot平均值趋势",
+    "data_type": "FT",
+    "loader_level": "Summary",
+    "table_name": "dwd_ft_parameters_dutlevel_summary_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot，对应的fab bin map",
+    "data_type": "FT",
+    "loader_level": "Raw",
+    "table_name": "dwd_ft_bin_dielevel_rawdata_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot的dut map",
+    "data_type": "FT",
+    "loader_level": "Raw",
+    "table_name": "dwd_ft_bin_dutlevel_rawdata_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot ft siteLevel明细数据",
+    "data_type": "FT",
+    "loader_level": "Raw",
+    "table_name": "dwd_ft_tt_sitelevel_rawdata_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot ft siteLevel明细数据",
+    "data_type": "FT",
+    "loader_level": "Raw",
+    "table_name": "dwd_ft_parameters_dielevel_rawdata_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一lot ft siteLevel明细数据",
+    "data_type": "FT",
+    "loader_level": "Raw",
+    "table_name": "dwd_ft_parameters_dutlevel_rawdata_prod_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer触发了哪些ink 规则",
+    "data_type": "INK",
+    "loader_level": "Summary",
+    "table_name": "dws_autoink_rule_wf",
+    "source": "original"
+  },
+  {
+    "text": "查看某一wafer被ink的明细",
+    "data_type": "INK",
+    "loader_level": "Raw",
+    "table_name": "dwd_autoink_wafers_detail_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某wafer的Downgrade信息",
+    "data_type": "Downgrade",
+    "loader_level": "Summary",
+    "table_name": "dwd_ws_grade_check_result",
+    "source": "original"
+  },
+  {
+    "text": "查看某wafer的Downgrade明细",
+    "data_type": "Downgrade",
+    "loader_level": "Raw",
+    "table_name": "dwd_ws_grade_check_result_detail",
+    "source": "original"
+  },
+  {
+    "text": "查看某时间段/module/eqp 某lot的水化气上料信息",
+    "data_type": "Others",
+    "loader_level": "Raw",
+    "table_name": "dwd_fac_material",
+    "source": "original"
+  }
+]

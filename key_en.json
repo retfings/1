@@ -1,0 +1,324 @@
+{
+    "Process Group": [
+      {
+        "name": "Substrate Preparation",
+        "Process Module": [
+          {
+            "name": "Wafer Manufacturing",
+            "Process Unit": [
+              "Crystal Growth",
+              "Wafer Slicing",
+              "Edge Rounding"
+            ]
+          },
+          {
+            "name": "Wafer Polishing",
+            "Process Unit": [
+              "Lapping",
+              "Chemical Mechanical Polishing"
+            ]
+          },
+          {
+            "name": "Cleaning",
+            "Process Unit": [
+              "RCA Clean",
+              "Piranha Clean",
+              "Vapor Phase Cleaning"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Film Formation",
+        "Process Module": [
+          {
+            "name": "Oxidation",
+            "Process Unit": [
+              "Thermal Oxidation",
+              "Plasma-Enhanced Oxidation",
+              "High Pressure Oxidation",
+              "Low Pressure Oxidation",
+              "Anodic Oxidation"
+            ]
+          },
+          {
+            "name": "Deposition",
+            "Process Unit": [
+              "Chemical Vapor Deposition (CVD)",
+              "Physical Vapor Deposition (PVD)",
+              "Atomic Layer Deposition (ALD)",
+              "Pulsed Layer Deposition"
+            ]
+          },
+          {
+            "name": "Epitaxial Growth",
+            "Process Unit": [
+              "Silicon Epitaxy",
+              "Compound Semiconductor Epitaxy"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Patterning",
+        "Process Module": [
+          {
+            "name": "Lithography",
+            "Process Unit": [
+              "Photoresist Application",
+              "Exposure (UV Deep UV EUV)",
+              "Development",
+              "Electron Beam Lithography",
+              "Ion Beam Lithography",
+              "Maskless Lithography",
+              "Immersion Lithography"
+            ]
+          },
+          {
+            "name": "Etching",
+            "Process Unit": [
+              "Wet Etching",
+              "Dry Etching",
+              "Plasma Etching",
+              "Reactive Ion Etching",
+              "Deep Reactive Ion Etching",
+              "Isotropic Wet Etching",
+              "Anisotropic Wet Etching",
+              "Atomic Ion Etching",
+              "Electron Cyclotron Etching"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Doping",
+        "Process Module": [
+          {
+            "name": "Ion Implantation",
+            "Process Unit": [
+              "High Energy Implantation",
+              "Low Energy Implantation",
+              "Plasma Immersion Ion Implantation",
+              "Focused Ion Beam Implantation"
+            ]
+          },
+          {
+            "name": "Diffusion",
+            "Process Unit": [
+              "Thermal Diffusion",
+              "Rapid Thermal Diffusion"
+            ]
+          },
+          {
+            "name": "In-situ Doping",
+            "Process Unit": [
+              "During Epitaxial Growth",
+              "During Deposition"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Planarization",
+        "Process Module": [
+          {
+            "name": "Chemical Mechanical Planarization",
+            "Process Unit": [
+              "Oxide CMP",
+              "Metal CMP"
+            ]
+          },
+          {
+            "name": "Etchback Planarization",
+            "Process Unit": [
+              "Resist Etchback",
+              "Sacrificial Layer Etchback"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cleaning and Surface Preparation",
+        "Process Module": [
+          {
+            "name": "Wet Cleaning",
+            "Process Unit": [
+              "RCA Clean",
+              "Piranha Clean",
+              "HF Dip"
+            ]
+          },
+          {
+            "name": "Dry Cleaning",
+            "Process Unit": [
+              "Plasma Cleaning",
+              "UV-Ozone Cleaning"
+            ]
+          },
+          {
+            "name": "Advanced Cleaning",
+            "Process Unit": [
+              "Supercritical CO2 Cleaning",
+              "Cryogenic Cleaning"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Thermal Processing",
+        "Process Module": [
+          {
+            "name": "Annealing",
+            "Process Unit": [
+              "Furnace Annealing",
+              "Rapid Thermal Annealing",
+              "Laser Annealing"
+            ]
+          },
+          {
+            "name": "Thermal Oxidation",
+            "Process Unit": [
+              "Dry Oxidation",
+              "Wet Oxidation"
+            ]
+          },
+          {
+            "name": "Dopant Activation",
+            "Process Unit": [
+              "Spike Annealing",
+              "Flash Annealing"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Metrology and Inspection",
+        "Process Module": [
+          {
+            "name": "Physical Metrology",
+            "Process Unit": [
+              "Profilometry",
+              "Ellipsometry",
+              "X-ray Reflectometry"
+            ]
+          },
+          {
+            "name": "Electrical Metrology",
+            "Process Unit": [
+              "Sheet Resistance Measurement",
+              "Capacitance-Voltage Measurement"
+            ]
+          },
+          {
+            "name": "Defect Inspection",
+            "Process Unit": [
+              "Optical Inspection",
+              "E-beam Inspection",
+              "Wafer Inspection"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Advanced Modules",
+        "Process Module": [
+          {
+            "name": "High-k/Metal Gate",
+            "Process Unit": [
+              "Gate Dielectric Deposition",
+              "Metal Gate Deposition"
+            ]
+          },
+          {
+            "name": "Strain Engineering",
+            "Process Unit": [
+              "Strained Silicon",
+              "SiGe Channels"
+            ]
+          },
+          {
+            "name": "3D Structures",
+            "Process Unit": [
+              "FinFET Formation",
+              "Gate-All-Around Structures"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Back-End Processes",
+        "Process Module": [
+          {
+            "name": "Multilayer Interconnect",
+            "Process Unit": [
+              "Interlayer Dielectric Deposition",
+              "Metal Deposition",
+              "Chemical Mechanical Planarization"
+            ]
+          },
+          {
+            "name": "Metallization",
+            "Process Unit": [
+              "Physical Vapor Deposition",
+              "Chemical Vapor Deposition",
+              "Electroplating",
+              "Sputtering"
+            ]
+          },
+          {
+            "name": "Interconnect Patterning",
+            "Process Unit": [
+              "Damascene Process",
+              "Dual Damascene Process"
+            ]
+          },
+          {
+            "name": "Passivation",
+            "Process Unit": [
+              "Silicon Nitride Deposition",
+              "Polyimide Coating"
+            ]
+          },
+          {
+            "name": "Wafer Thinning",
+            "Process Unit": [
+              "Backside Grinding",
+              "Chemical Etching"
+            ]
+          },
+          {
+            "name": "Wafer Testing",
+            "Process Unit": [
+              "Parametric Testing",
+              "Functional Testing"
+            ]
+          },
+          {
+            "name": "Dicing",
+            "Process Unit": [
+              "Mechanical Dicing",
+              "Laser Dicing",
+              "Plasma Dicing"
+            ]
+          },
+          {
+            "name": "Packaging",
+            "Process Unit": [
+              "Die Attach",
+              "Wire Bonding",
+              "Flip Chip Bonding",
+              "Encapsulation"
+            ]
+          },
+          {
+            "name": "Advanced Packaging",
+            "Process Unit": [
+              "Through-Silicon Via (TSV)",
+              "Wafer-Level Packaging",
+              "3D Integration"
+            ]
+          }
+        ]
+      }
+    ]
+  }
