@@ -1,0 +1,163 @@
+[
+  {
+    "text": "查看某一MET参数均值的趋势",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "original"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14期间，产品类型为product_type的良率数据有哪些变化？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "产品ID为Y086D的晶圆在measure_stage为xxx时的参数paramter_name是多少？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "批次ID为A29T216的晶圆中，wafer_id为A29T216#04的measure_step_seq数据是怎样的？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "lot_type为R的批次在chart_type为NK的图表中，paramter_name的表现如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在measure_stage为xxx时，wafer_id为A29T216#06的paramter_name值是多少？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "产品ID为Y086D的晶圆在2023-01-01 14:35:00到2023-01-01 14:35:14期间的measure_step_seq数据有哪些变化？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "批次ID为A29T216的晶圆中，wafer_id为A29T216#02的paramter_name在measure_stage为xxx时的表现如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在chart_type为NK的图表中，lot_type为R的批次的paramter_name在measure_step_seq中的变化趋势是怎样的？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "wafer_id为A29T216#09的晶圆在measure_stage为xxx时的paramter_name值是多少？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "产品类型为product_type的晶圆在2023-01-01 14:35:00到2023-01-01 14:35:14期间的良率数据有哪些变化？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "查看某一个MET parameter过去2个月的Xbar-R/S Trend及Rawdata chart；",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个量测参数，某一wafer的sitemap叠图和gallery",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "在start_time为2023-01-01至2023-01-31期间，product_type为DRAM的良率变化趋势如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "product_id为12345的wafer_id在measure_stage为ETCH时的paramter_name是哪些？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "lot_id为LOT001的lot_type是什么？它在measure_step_seq中的paramter_name变化情况如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "chart_type为折线图时，如何展示wafer_id为WAFER002在measure_stage为CMP的paramter_name变化？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在measure_stage为PHOTO时，product_type为NAND的lot_id有哪些？它们的start_time是什么时候？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "paramter_name为Thickness时，product_id为67890在measure_step_seq中的变化趋势如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "lot_type为ENG的lot_id在start_time为2023-02-01至2023-02-28期间的良率分析结果如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "wafer_id为WAFER003在measure_stage为DIFF时的paramter_name有哪些？它们的chart_type是什么？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "product_type为SRAM的product_id在measure_step_seq为10时的paramter_name是什么？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "lot_id为LOT002在measure_stage为CVD时的paramter_name变化趋势如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  }
+]

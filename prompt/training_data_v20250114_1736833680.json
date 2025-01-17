@@ -1,0 +1,93 @@
+[
+  {
+    "text": "查看某一MET参数均值的趋势",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "original"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14，product_id为Y086D并且lot_id为A29T216的MET参数均值是什么？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14，wafer_id为A29T216#04并且measure_stage为INLINE的量测参数中位数是什么？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14，lot_type为R并且chart_type为NK的Parameter统计值是什么？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14，product_type为半导体并且measure_step_seq为1的item标准差是什么？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14，wafer_id为A29T216#06并且paramter_name为良率的汇总值是什么？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "查看某一个MET parameter过去2个月的Xbar-R/S Trend及Rawdata chart；",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个量测参数，某一wafer的sitemap叠图和gallery",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "在2023-01-01到2023-03-31,product_type为DRAM并且measure_stage为INLINE的MET是什么？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-02-01到2023-02-28,lot_id为L12345并且wafer_id为W67890的量测参数是什么？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-03-15到2023-03-31,paramter_name为Thickness并且lot_type为Engineering的Parameter明细是什么？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-01-15到2023-01-31,measure_step_seq为Step1并且chart_type为Xbar-R的Rawdata是什么？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-04-01到2023-04-15,product_id为P98765并且measure_stage为INLINE的item汇总是什么？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  }
+]

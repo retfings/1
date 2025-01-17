@@ -1,0 +1,163 @@
+[
+  {
+    "text": "查看某一MET参数均值的趋势",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "original"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14期间，产品类型为Y086D的良率表现如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "产品ID为Y086D在测量阶段measure_stage的具体表现是什么？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "批次ID为A29T216的晶圆在测量步骤measure_step_seq中的参数paramter_name变化趋势如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14期间，批次类型为R的良率分析结果如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "晶圆ID为A29T216#04的测量阶段measure_stage的具体参数paramter_name表现如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "产品类型为Y086D的批次A29T216在测量步骤measure_step_seq中的良率变化趋势如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14期间，晶圆A29T216#06的测量阶段measure_stage表现如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "批次ID为A29T216的晶圆在测量阶段measure_stage的图表类型chart_type为NK时的良率分析结果如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "产品ID为Y086D的批次A29T216在测量步骤measure_step_seq中的参数paramter_name变化趋势如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14期间，晶圆A29T216#02的测量阶段measure_stage的具体表现是什么？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "查看某一个MET parameter过去2个月的Xbar-R/S Trend及Rawdata chart；",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个量测参数，某一wafer的sitemap叠图和gallery",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "在2023年9月1日之后，产品类型为NAND闪存的良率表现如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "产品ID为Y086D在测量阶段'初始测试'的良率数据是多少？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "批次ID为L12345的晶圆ID W7890在参数名称'电压'上的测量结果如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在测量步骤序列为10的阶段，产品类型为DRAM的良率变化趋势是怎样的？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "批次类型为'生产批次'的所有产品在2023年8月的良率分析结果是什么？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在测量阶段'最终测试'，产品ID为Y086D的晶圆ID W7890的良率数据是多少？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "参数名称'电流'在测量步骤序列为5的阶段，产品类型为NAND闪存的表现如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在2023年7月1日至2023年9月30日期间，批次ID为L12345的良率变化趋势是怎样的？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "产品类型为DRAM的所有批次在测量阶段'初始测试'的良率数据是多少？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在测量步骤序列为15的阶段，参数名称'电阻'的变化趋势如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  }
+]

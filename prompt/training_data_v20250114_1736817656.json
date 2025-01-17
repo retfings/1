@@ -1,0 +1,203 @@
+[
+  {
+    "text": "查看某一MET参数均值的趋势",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "original"
+  },
+  {
+    "text": {
+      "question": "请问在2023年9月的start_time期间，product_type为NAND闪存的良率分析结果如何？"
+    },
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "能否提供product_id为12345的半导体产品在measure_stage为初测阶段的详细良率数据？"
+    },
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "在lot_id为LOT001的生产批次中，wafer_id为W001的晶圆的paramter_name为电压的测量结果是什么？"
+    },
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "对于lot_type为试验批次的半导体产品，chart_type为折线图的良率趋势分析是怎样的？"
+    },
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "在measure_step_seq为10的测量步骤中，product_type为DRAM的良率表现如何？"
+    },
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "能否展示start_time为2023年8月1日至2023年8月31日期间，product_id为67890的半导体产品的良率变化图表？"
+    },
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "在measure_stage为终测阶段，lot_id为LOT002的生产批次中，wafer_id为W005的晶圆的paramter_name为电流的测量数据是多少？"
+    },
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "对于chart_type为柱状图的良率分析，lot_type为量产批次的半导体产品在2023年7月的表现如何？"
+    },
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "在measure_step_seq为15的测量步骤中，product_type为SRAM的良率数据有哪些异常点？"
+    },
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "请问在start_time为2023年6月，product_id为11223的半导体产品在measure_stage为初测阶段的良率分析报告可以分享吗？"
+    },
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "查看某一个MET parameter过去2个月的Xbar-R/S Trend及Rawdata chart；",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个量测参数，某一wafer的sitemap叠图和gallery",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": {
+      "question": "请问在半导体良率分析中，如何根据start_time和product_type筛选出特定时间段内的产品数据？"
+    },
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "在分析半导体产品的良率时，product_id和lot_id如何帮助我们追踪特定批次的产品？"
+    },
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "measure_stage在半导体生产过程中扮演什么角色？它如何影响最终的良率分析？"
+    },
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "如何利用wafer_id和paramter_name来识别和解决半导体生产中的特定问题？"
+    },
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "在半导体良率分析中，lot_type的不同会对数据分析结果产生哪些影响？"
+    },
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "chart_type在展示半导体良率数据时有哪些常见的选择？它们各自适用于哪些分析场景？"
+    },
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "measure_step_seq在半导体生产流程中是如何定义的？它对良率分析有何重要性？"
+    },
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "能否详细解释一下如何结合start_time和measure_step_seq来分析半导体生产过程中的效率？"
+    },
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "在半导体行业，如何通过product_type和lot_type来优化生产流程以提高良率？"
+    },
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": {
+      "question": "在半导体良率分析报告中，如何有效地展示paramter_name和chart_type以支持决策制定？"
+    },
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  }
+]

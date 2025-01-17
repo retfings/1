@@ -1,0 +1,93 @@
+[
+  {
+    "text": "查看某一MET参数均值的趋势",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "original"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14期间，产品类型为Y086D的良率数据有哪些变化？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "批次A29T216在测量阶段的具体表现如何？是否有异常数据点？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "晶圆A29T216#04在参数名称上的测量结果与批次A29T216的其他晶圆相比有何差异？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "对于批次类型为R的批次A29T216，在图表类型NK上的sitemap叠图显示了哪些关键趋势？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在测量步骤序列中，产品ID为Y086D的参数名称在不同测量阶段的变化趋势是怎样的？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "查看某一个MET parameter过去2个月的Xbar-R/S Trend及Rawdata chart；",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个量测参数，某一wafer的sitemap叠图和gallery",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看产品类型为Y086D在测量阶段measure_stage为ETCH的良率数据，并生成Xbar-R/S Trend图表。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "分析批次ID为A29T216在测量步骤序列measure_step_seq为STEP3时的参数paramter_name为CD的变化趋势。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "获取晶圆ID为W12345在测量阶段measure_stage为CMP的sitemap叠图和gallery。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "查询产品ID为Y086D在批次类型lot_type为R的Xbar-R/S Trend图表，并分析其良率表现。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "查看参数paramter_name为THK在测量步骤序列measure_step_seq为STEP5时的Rawdata chart，并分析其数据偏差。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  }
+]

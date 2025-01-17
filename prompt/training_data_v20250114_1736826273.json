@@ -1,0 +1,94 @@
+[
+  {
+    "text": "查看某一MET参数均值的趋势",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "original"
+  },
+  {
+    
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14期间，产品类型为Y086D的晶圆A29T216#04的MET参数均值是多少？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "批次A29T216在测量阶段的具体参数'paramter_name'的标准差是多少？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "产品ID为Y086D的晶圆A29T216#06在测量阶段的参数'paramter_name'的中位数是多少？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "批次类型为R的批次A29T216在图 表类型NK上的参数'paramter_name'的统计值是多少？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在测量步骤序列measure_step_seq中，晶圆A29T216#05的参数'paramter_name'的变化趋势是怎样的？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "查看某一个MET parameter过去2个月的Xbar-R/S Trend及Rawdata chart；",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个量测参数，某一wafer的sitemap叠图和gallery",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看产品类型为Y086D的lot_id为A29T216在过去2个月的Xbar-R/S Trend及Rawdata chart。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "请提供wafer_id为W12345在measure_stage为ETCH阶段的paramter_name为Thickness的sitemap叠图和gallery。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "分析product_id为Y086D在measure_step_seq为10到20之间的paramter_name为CD的变化趋势。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "请展示lot_type为R的lot_id为A29T216在chart_type为Xbar-R/S的图表表现。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "查询measure_stage为CMP阶段的wafer_id为W12345的paramter_name为Uniformity的Rawdata明细。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  }
+]

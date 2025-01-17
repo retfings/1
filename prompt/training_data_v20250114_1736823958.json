@@ -1,0 +1,93 @@
+[
+  {
+    "text": "查看某一MET参数均值的趋势",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "original"
+  },
+  {
+    "text": "在2023-01-01 14:35:00到2023-01-01 14:35:14期间，产品类型为Y086D的晶圆A29T216#04的测量参数均值有何变化？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "批次A29T216在测量阶段的具体参数表现如何，特别是在图表类型NK上的数据分布情况？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "产品ID为Y086D的晶圆A29T216#06在测量步骤序列中的参数变化趋势是怎样的？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "批次类型为R的批次A29T216在2023-01-01 14:35:00到2023-01-01 14:35:14期间的良率数据如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "晶圆A29T216#02在测量阶段的具体参数表现如何，特别是在图表类型NK上的数据偏差情况？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "查看某一个MET parameter过去2个月的Xbar-R/S Trend及Rawdata chart；",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个量测参数，某一wafer的sitemap叠图和gallery",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看产品类型为Y086D的晶圆在测量阶段'ETCH'的良率数据，并生成Xbar-R/S Trend图表。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "请提供批次ID为A29T216的晶圆在测量步骤序列'STEP1'中的参数'THICKNESS'的Rawdata图表。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "分析产品ID为Y086D的晶圆在测量阶段'CMP'的'THICKNESS'参数变化趋势，并生成sitemap叠图。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "查询批次类型为R的批次A29T216在测量阶段'PHOTO'的'CD'参数数据，并生成gallery图表。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "请展示产品类型为Y086D的晶圆在测量步骤序列'STEP2'中的参数'CD'的Xbar-R/S Trend及Rawdata图表。",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  }
+]

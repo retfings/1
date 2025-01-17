@@ -14,13 +14,12 @@ class TrainingDataGenerator:
             base_url="https://api.deepseek.com"
         )
         
-    async def generate_questions(self, row, num_questions=2):
+    async def generate_questions(self, row, num_questions=5):
         """使用大模型生成问题"""
         conditions = row['查询条件'].split('、') if pd.notna(row['查询条件']) else []
         keywords = row['关键字'].split('、') if pd.notna(row['关键字']) else []
         original_questions = row['问题'].split('\n') if pd.notna(row['问题']) else []
-        # 数据类型: {row['Data Type']}
-        # 
+        
         prompt = f"""
 请根据以下信息生成{num_questions}个查询问题：
 
@@ -37,13 +36,6 @@ class TrainingDataGenerator:
 4. 问题要自然且符合业务场景
 5. 参考原始问题的风格
 6. 确保使用的条件都在给定的查询条件列表中
-
-请生成一组全面的分析问题，这些问题应涵盖但不限于以下几个方面：
-1. 数据筛选和过滤（如时间范围、批次、产品类型等）
-2. 数据差异性对比（如批次之间、测量阶段之间）
-3. 数据表现趋势（如随时间变化、测量阶段变化）
-4. 数据可视化需求（如需要哪些类型的图表展示）
-5. 关联性和分组分析（如参数与产品类型的关联性）
 
 请直接返回JSON数组格式，每个元素包含一个问题字符串。不要包含其他说明文字。
 """
@@ -95,7 +87,6 @@ class TrainingDataGenerator:
                     })
         
         # 2. 使用大模型生成新问题
-     
         
         generated_questions = await self.generate_questions(row)
         
@@ -118,17 +109,13 @@ class TrainingDataGenerator:
         training_data = []
         
         # 并发处理所有行
-        tasks = [self.process_row(row) for _, row in df.head(2).iterrows()]
-
-
+        tasks = [self.process_row(row) for _, row in df.iterrows()]
         # tasks = tasks[0]
         results = await asyncio.gather(tasks)
-        
         
         # 合并结果
         for result in results:
             training_data.extend(result)
-        
         
         from datetime import datetime
         current_date = datetime.now()

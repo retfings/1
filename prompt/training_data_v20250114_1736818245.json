@@ -1,0 +1,163 @@
+[
+  {
+    "text": "查看某一MET参数均值的趋势",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "original"
+  },
+  {
+    "text": "请问在2023年第一季度（start_time）生产的特定产品类型（product_type）的良率数据是多少？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "能否提供产品ID为12345（product_id）在测量阶段（measure_stage）的详细参数（paramter_name）数据？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在批次ID为LOT001（lot_id）中，晶圆ID为WAFER002（wafer_id）的测量步骤序列（measure_step_seq）是怎样的？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "请问在2023年4月（start_time）生产的批次类型为A（lot_type）的产品良率如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "能否展示产品类型为B（product_type）在测量阶段（measure_stage）的图表类型（chart_type）？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在批次ID为LOT002（lot_id）中，哪些晶圆（wafer_id）的测量步骤序列（measure_step_seq）出现了异常？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "请问在2023年5月（start_time）生产的特定产品ID（product_id）的良率趋势如何？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "能否提供批次类型为C（lot_type）在测量阶段（measure_stage）的详细参数（paramter_name）数据？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "在晶圆ID为WAFER003（wafer_id）中，测量步骤序列（measure_step_seq）的哪些步骤对良率影响最大？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "请问在2023年6月（start_time）生产的特定产品类型（product_type）的良率图表（chart_type）是怎样的？",
+    "data_type": "_",
+    "loader_level": "Summary",
+    "table_name": "dws_met_inline_pam_wf",
+    "source": "generated"
+  },
+  {
+    "text": "查看某一个MET parameter过去2个月的Xbar-R/S Trend及Rawdata chart；",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "查看某一个量测参数，某一wafer的sitemap叠图和gallery",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "original"
+  },
+  {
+    "text": "请问在2023年1月1日之后生产的product_type为A的半导体产品的良率如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "能否提供product_id为12345的半导体产品在measure_stage为'final_test'时的详细良率数据？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "lot_id为LOT001的半导体产品在measure_step_seq为10时的paramter_name有哪些？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在2023年第一季度，lot_type为'engineering'的半导体产品的良率趋势如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "wafer_id为WAFER002的半导体产品在measure_stage为'initial_test'时的chart_type是什么？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "请问在2023年3月15日生产的product_type为B的半导体产品的lot_id有哪些？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "能否展示product_id为67890的半导体产品在measure_step_seq为5时的paramter_name变化趋势？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "在2023年第二季度，lot_type为'production'的半导体产品的良率与start_time的关系如何？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "wafer_id为WAFER003的半导体产品在measure_stage为'final_test'时的measure_step_seq是多少？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  },
+  {
+    "text": "请问在2023年4月1日至2023年4月30日期间，product_type为C的半导体产品的lot_id和wafer_id的对应关系是什么？",
+    "data_type": "Inline",
+    "loader_level": "Raw",
+    "table_name": "dwd_met_inline_dtl_v",
+    "source": "generated"
+  }
+]

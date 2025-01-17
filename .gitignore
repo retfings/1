@@ -6,3 +6,6 @@ web
 *.pdf
 sci-hub-doi-2022-02-12.txt
 test_oos2.py
+build
+dist
+*.egg-info

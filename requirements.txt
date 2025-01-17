@@ -33,3 +33,5 @@ pynput
 pyobjc
 sqlalchemy
 fabric
+
+selenium

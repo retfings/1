@@ -1,0 +1,5 @@
+2025-01-15T14:26:10.650874+0800 INFO scihub.py hello
+scihub.py:249 _get_available_scihub_urls hello
+C:\Users\liujia\anaconda3\envs\crawl4ai\Lib\site-packages\scihub_cn\scihub.py | 2025-01-15T14:55:24.151416+0800 | INFO |  hello
+C:\Users\liujia\anaconda3\envs\crawl4ai\Lib\site-packages\scihub_cn\scihub.py | 2025-01-15T14:57:56.675325+0800 | INFO |  ['http://sci-hub.se', 'https://sci-hub.se', 'https://www.sci-hub.se', 'http://sci-hub.st', 'https://sci-hub.st', 'https://www.sci-hub.st', 'http://sci-hub.ru', 'https://sci-hub.ru', 'https://www.sci-hub.ru']
+C:\Users\liujia\anaconda3\envs\crawl4ai\Lib\site-packages\scihub_cn\scihub.py | 2025-01-15T15:05:54.056592+0800 | INFO |  ['http://sci-hub.se', 'https://sci-hub.se', 'https://www.sci-hub.se', 'http://sci-hub.st', 'https://sci-hub.st', 'https://www.sci-hub.st', 'http://sci-hub.ru', 'https://sci-hub.ru', 'https://www.sci-hub.ru']

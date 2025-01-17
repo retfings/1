@@ -1,0 +1,67 @@
+Data Type,Loader Level,Loader Name,Loader Type,数据表名,查询条件,问题,关键字
+_,Summary,parameter_wafer_inline,Tall,dws_met_inline_pam_wf,start_time、product_type、product_id、measure_stage、lot_id、wafer_id、paramter_name、lot_type、chart_type、measure_step_seq,1.查看某一MET参数均值的趋势,MET、INLINE、量测、参数、Parameter、item、汇总、均值、中位数、标准差、统计值
+Inline,Raw,parameter_rawdata_inline,Tall,dwd_met_inline_dtl_v,start_time、product_type、product_id、measure_stage、lot_id、wafer_id、paramter_name、lot_type、chart_type、measure_step_seq,"1.查看某一个MET parameter过去2个月的Xbar-R/S Trend及Rawdata chart；
+2.查看某一个量测参数，某一wafer的sitemap叠图和gallery",MET、INLINE、量测、参数、Parameter、item、汇总、明细、Raw、Rawdata
+Defect,Summary,kt_wafer,Tall,dwd_insp_wafer_summary_v,时间、product_type、product_id、layer、stage、eqp_id、Lot、Wafer,"1.查看过去两个月，某款产品的DEFECT MAP
+2.查看过去一周，某个Layer的DEFECT趋势",DEFECT、缺陷、DEFECT MAP、Total DEFECT、DEFECT趋势、True Count、DEFECT Density、DD
+Defect,Summary,kt_class,Tall,dws_defect_class_wf,时间、product_type、product_id、layer、Lot、Wafer、class_type、class_name、class_code,"1.查看过去两个月，某款产品的code是A的趋势
+2.查看过去一周，某个Layer的rough bin是B的趋势",DEFECT、缺陷、Rough bin、Fine Bin、Manual Bin、Class、Code、缺陷类别
+Defect,Raw,rawdata_chart,Tall,dwd_defect_chart_wafer,时间、product_type、product_id、layer、Lot、Wafer、stage、parameter_type、chart_id、lot_type、measure_step_seq,"1.查看过去两个月，某款产品的chart是B的趋势
+2.查看过去一周，某个Layer的chart是B的趋势",DEFECT、缺陷、chart
+Defect,Raw,rawdata_ktC7:E7,Tall,dwd_insp_defect_v,时间、product_type、product_id、layer、test_id、Lot、Wafer、rough_bin_class&bin_name、class_number&class_name、fine_class&fine_number,"1.查看过去两个月，某款产品的DEFECT MAP
+2.查看过去一周，某个Layer，某个wafer的MAP",DEFECT、缺陷 MAP、code Map、坐标、明细、raw、rawdata
+WS,Summary,bin_wafer,Tall,dws_ws_hardbin_wf,start_time、product_type、product_id、grade、product_ind、test_step、bin、parameter、test_item、rework、lot、wafer、recipe,1.查看过去一个月，某款产品，bin1的数据,CP 、WS、Wafer Sort、BIN、Harbin、Bin Code、softbin
+WS,Summary,bin_wafer,Wide,dws_ws_hardbin_wd,,1.查看过去一个月，某款产品，bin1的数据宽表,CP 、WS、Wafer Sort、、BIN、Harbin、Bin Code、softbin、wide、宽表
+WS,Summary,param_wafer,Tall,dws_ws_param_wf,,1.查看某款产品，过去一周某一参数的明细,CP 、WS、Wafer Sort、parameter、test_item、参数、测试参数
+WS,Summary,bb_wafer,Tall,dws_ws_bb_wf,,1.查看某一测试项的bb trend,CP 、WS、Wafer Sort、
+WS,Summary,ett_wafer,Tall,dws_ws_ett_wf,,1.查看某一测试项的测试时间趋势,CP 、WS、Wafer Sort、
+WS,Summary,funcbin_wafer,Tall,dws_ws_funcbin_wf,,1.查看某一产品，过去一月某一funcbin的趋势,CP 、WS、Wafer Sort、funcbin。Fail item
+WS,Summary,fwl_wafer,Tall,dws_ws_fwl_wf,,1.查看某一测试项，过去一周，某一参数的fail wl趋势,CP 、WS、Wafer Sort、
+WS,Summary,fwl_die,Tall,dws_ws_fwl_die,,暂时用不到,CP 、WS、Wafer Sort、
+WS,Summary,marginl_wafer,Tall,dws_ws_rdmargin_wf,,暂时用不到,CP 、WS、Wafer Sort、
+WS,Summary,pcollevel_wafer,Tall,dws_ws_pcollevel_wf,,1.查看某一测试项，过去一周，某一参数的fail pcoll趋势,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_bin,Tall,dwd_ws_hardbin_v,,,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_param,Tall,dwd_ws_param_die_v,,,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_bb,Tall,dwd_ws_bb_v,,1.查看某一wafer 某一测试项的bb map,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_bb_mark,Tall,dwd_ws_bb_mark_v,,,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_ett,Tall,dwd_ws_pf_ett_v,,,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_funcbin,Tall,dwd_ws_funcbin_v,,,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_vtdist,Tall,dwd_ws_vtdist_v,,1.查看某一wafer的vt分布,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_vtstat,Tall,dwd_ws_vt_ivs_stat_v,,,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_fwl,Tall,dwd_ws_fwl_v,,,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_margin,Tall,dwd_ws_rdmargin_v,,,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_pcollevel,Tall,dwd_ws_pcollevel_v,,,CP 、WS、Wafer Sort、
+WS,Raw,rawdata_leakage_x8,Tall,dwd_ws_leakage_x8_v,,,CP 、WS、Wafer Sort、
+History,Raw,weh,Tall,dwd_wip_weh_v,时间、product_type、product_id、step_type、stage&step_no&substep、lot_type、loop、module、stage、step_no、eqp、chamber、subchamber、lot、wafer,查看最近两周A站点的wafer履历,history、履历、run 货历史、wafer、qtime
+History,Raw,leh,Tall,dwd_wip_leh_v,,查看最近两周A站点的lot履历,history、履历、run 货历史、lot
+History,Raw,abnormal_label,Tall,dwd_abnormal_label,时间、stage、abnormal_type、abnormal_no、wafer,查询某一wafer触发了哪些异常标签,异常标签、pcrb、rrc、drb、mrb
+FDC,Summary,indicator,Tall,dwd_fdc_indicator_dtl_v,时间、product_type、product_id、stage、stage&step_no、indicatorname、type、module、eqp_group、eqp_id、chamber、recipe、lot、wafer,查看某一机台最近一天某一indicator参数的趋势,FDC、indicator
+WAT,Summary,param_wafer,Tall,dws_wat_param_wf,时间、product_type、product_id、parameter、recipe_name、parameter_type、limit_file&site_tested、program_name,查看某一WAT参数过去一周均值的趋势,WAT、电性测试、均值、中位数、标准差
+WAT,Raw,rawdata_param,Tall,dwd_wat_param_v,,show 某一个WAT parameter多片wafer的sitemap叠图和gallery,WAT、电性测试、map、明细、raw
+Offline,Summary,param_wafer,Tall,dws_met_offline_param_wf,时间、module、measure_item、eqp,1.查看某一Offline参数均值的趋势,offline、met offline、均值、中位数、标准差
+Offline,Raw,rawdata_param,Tall,dwd_met_offline_param_v,,"1.查看某一个Offline parameter过去2个月的Xbar-R/S Trend及Rawdata chart；
+2.查看某一个Offline 量测参数，某一wafer的sitemap叠图和gallery",offline、met offline、map、明细、raw
+FT,Summary,wafer_info_prod,Tall,dwd_ft_fab_wafer_info_prod_v,时间、产品、lot_no、fab_lot、fab_wafer_no、test_step,查看某一lot对应的fablot和fabwafer,FT 、Final Test
+FT,Summary,lotinfo_prod,Tall,dwd_ft_lotinfo_prod_v,时间、产品、lot_no、wafer_lot_no、tout_no、tester_no、test_step、test_program、retest_flag、ewo,查看某一产品，某一站点的最近一个月的lot良率趋势,FT 、Final Test
+FT,Summary,yield_prod,Tall,dwd_ft_summary_yield_prod_v,时间、产品、lot_no、wafer_lot_no、tout_no、tester_no、test_step、test_program、retest_flag、ewo,查看某一产品，某一站点的最近一个月的lot良率趋势,FT 、Final Test
+FT,Summary,yield_mer_prod,Tall,dwd_ft_summary_yield_mer_prod_v,时间、产品、lot_no、wafer_lot_no、tout_no、tester_no、test_step、test_program、ewo,查看某一产品，某一站点的最近一个月的lot final良率趋势,FT 、Final Test
+FT,Summary,hardbin_prod,Tall,dwd_ft_summary_hardbin_prod_v,时间、产品、lot_no、test_flag、test_step、hard_bin,查看某一lot，hardbin分布,FT 、Final Test
+FT,Summary,hardbin_mer_prod,Tall,dwd_ft_summary_hardbin_mer_prod_v,时间、产品、lot_no、test_step、hard_bin,查看某一lot，final的hardbin分布,FT 、Final Test
+FT,Summary,softbin_prod,Tall,dwd_ft_summary_softbin_prod_v,时间、产品、lot_no、test_flag、test_step、tb_name,查看某一lot，softbin分布,FT 、Final Test
+FT,Summary,softbin_mer_prod,Tall,dwd_ft_summary_softbin_mer_prod_v,时间、产品、lot_no、test_step、tb_name,查看某一lot，final的softbin分布,FT 、Final Test
+FT,Summary,bin_die_prod,Tall,dwd_ft_bin_dielevel_summary_prod_v,时间、产品、lot_no、fab_lot、fab_wafer_no、test_step、tb_name,查看某一lot，对应fab lot的hardbin分布,FT 、Final Test
+FT,Summary,bin_dut_prod,Tall,dwd_ft_bin_dutlevel_summary_prod_v,时间、产品、lot_no、test_step、tb_name,查看某一lot的hardbin Summary,FT 、Final Test
+FT,Summary,tt_site_prod,Tall,dwd_ft_tt_sitelevel_summary_prod_v,时间、产品、tb_seq、tb_num、tb_name,查看某一产品，某一参数最近一周的平均值趋势,FT 、Final Test
+FT,Summary,param_die_prod,Tall,dwd_ft_parameters_dielevel_summary_prod_v,时间、产品、lot_no、test_step、parameter,查看某一产品，某一参数最近一周的ft lot平均值趋势,FT 、Final Test
+FT,Summary,param_die_wafer_prod,Tall,dwd_ft_parameters_dielevel_wafer_summary_prod_v,时间、产品、lot_no、fab_lot、fab_wafer_no、test_step、parameter,查看某一产品，某一参数最近一周的fab wafer平均值趋势,FT 、Final Test
+FT,Summary,param_dut_prod,Tall,dwd_ft_parameters_dutlevel_summary_prod_v,时间、产品、lot_no、test_step、parameter,查看某一产品，某一参数最近一周的ft lot平均值趋势,FT 、Final Test
+FT,Raw,rawdata_bin_die_prod,Tall,dwd_ft_bin_dielevel_rawdata_prod_v,时间、产品、lot_no、fab_lot、fab_wafer_no、test_step、tb_name,查看某一lot，对应的fab bin map,FT 、Final Test
+FT,Raw,rawdata_bin_dut_prod,Tall,dwd_ft_bin_dutlevel_rawdata_prod_v,时间、产品、lot_no、test_step、tb_name,查看某一lot的dut map,FT 、Final Test
+FT,Raw,rawdata_tt_site_prod,Tall,dwd_ft_tt_sitelevel_rawdata_prod_v,时间、产品、tb_seq、tb_num、tb_name,查看某一lot ft siteLevel明细数据,FT 、Final Test
+FT,Raw,rawdata_param_die_prod,Tall,dwd_ft_parameters_dielevel_rawdata_prod_v,时间、产品、lot_no、fab_lot、fab_wafer_no、test_step、parameter,,FT 、Final Test
+FT,Raw,rawdata_param_dut_prod,Tall,dwd_ft_parameters_dutlevel_rawdata_prod_v,时间、产品、lot_no、test_step、parameter,,FT 、Final Test
+INK,Summary,rule_wafer,Tall,dws_autoink_rule_wf,产品、rule_name、lot、wafer,查看某一wafer触发了哪些ink 规则,ink、auto ink
+INK,Raw,rawdata,Tall,dwd_autoink_wafers_detail_v,时间、产品、rule_name、lot、wafer,查看某一wafer被ink的明细,ink、auto ink
+Downgrade,Summary,check_result,Tall,dwd_ws_grade_check_result,时间、产品、CP_recipe、lot、wafer,查看某wafer的Downgrade信息,downgrade、降级
+Downgrade,Raw,check_rawdata,Tall,dwd_ws_grade_check_result_detail,时间、产品、lot、wafer,查看某wafer的Downgrade明细,downgrade、降级
+Others,Raw,material,Tall,dwd_fac_material,module、material_type、material_name,查看某时间段/module/eqp 某lot的水化气上料信息,fac、水化气、上下料
