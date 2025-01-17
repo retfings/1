@@ -9,3 +9,4 @@ test_oos2.py
 build
 dist
 *.egg-info
+test
